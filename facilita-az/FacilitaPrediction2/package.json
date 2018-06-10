@@ -1,0 +1,25 @@
+{
+  "name": "srv-provider",
+  "contributors": [
+    "Rafael Willians <me@rwillians.com>",
+    "Italo Jose <italo.i@live.com>",
+    "Caio Delgado <caiodelgado.csd@gmail.com>",
+    "Rogério Munhoz <rogerio.j.munhoz@gmail.com>"
+  ],
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": [
+    "node >= 8.9.4",
+    "npm >= 5.6.0"
+  ],
+  "scripts": {
+    "lint": "standard --global after --global afterEach --global before --global beforeEach --global describe --global it"
+  },
+  "dependencies": {
+    "mongodb": "^3.0.10",
+    "regression": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
