@@ -1,0 +1,7 @@
+{
+  "RESULT_TOPIC": "nfe-ew",
+  "RESULT_BUCKET": "nfe-ew",
+  "TRANSLATE_TOPIC": "nfe-translations",
+  "TRANSLATE": true,
+  "TO_LANG": ["en", "fr", "es", "ja", "ru"]
+}
