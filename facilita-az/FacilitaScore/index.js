@@ -7,7 +7,9 @@ module.exports = run = function (context, req) {
         const collection = client.db('hackthonciab').collection('empresas')
 
         context.log('JavaScript HTTP trigger function processed a request.');
-        collection.find().toArray().then(item => {
+        collection.find({
+            nome_fantasia: 'ART LOGIC'
+        }).toArray().then(item => {
             console.log('item', item)
             context.res = {
                 body: JSON.stringify(item)
