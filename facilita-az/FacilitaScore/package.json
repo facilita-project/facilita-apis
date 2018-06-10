@@ -1,6 +1,7 @@
 {
-  "name": "facilita-az",
+  "name": "FacilitaScore",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +11,5 @@
   "license": "ISC",
   "dependencies": {
     "mongodb": "^3.0.10"
-  },
-  "devDependencies": {},
-  "description": ""
+  }
 }
